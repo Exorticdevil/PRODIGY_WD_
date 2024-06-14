@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: #ff6347; /* Tomato color for hover and active effect */
+}
+
+section {
+  padding: 100px;
+  height: 100vh;
+}
+
+#home {
+  background-color: #f4f4f4;
+}
+
+#about {
+  background-color: #e4e4e4;
+}
+
+#services {
+  background-color: #d4d4d4;
+}
+
+#contact {
+  background-color: #c4c4c4;
+}
